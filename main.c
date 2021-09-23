@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main() {
-	int a = 2;
-	return 10 + a + 10;
+	int b = 100;
+	int a = b;
+	return a + 2 + 10;
 }
